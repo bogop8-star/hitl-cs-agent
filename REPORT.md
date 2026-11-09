@@ -124,8 +124,7 @@ flowchart TD
 
 ## 5. 데모 화면 설계
 
-> 📷 캡처: `docs/screenshot_pending.png` (승인 대기 상세), `docs/screenshot_results.png` (처리 결과), `docs/screenshot_criteria.png` (기준 비교)
-> `streamlit run app.py` 실행 후 직접 캡처해 넣습니다.
+**승인 대기 상세 화면** (Q08: 소비자원 신고 예고로 멈춘 건)
 
 ![승인 대기 상세](docs/screenshot_pending.png)
 
@@ -153,6 +152,14 @@ flowchart TD
 - 대기 목록: 고객명, 원문 앞부분, 걸린 기준 코드, 대기 시간. **3일 넘게 대기하면 ⚠️ 표시와 "팀장 에스컬레이션 대상" 경고** (운영 규칙)
 - 처리 결과: 자동/승인/수정 승인 건수, 개입률, 발송함, 반려 목록, 담당자 알림 기록
 - 기준 비교: 위 비교표 + 기준 조합과 임계값을 직접 바꿔 놓침·헛멈춤을 바로 확인
+
+**처리 결과 화면** (17건 처리 직후: 자동 발송 10, 승인 대기 7)
+
+![처리 결과](docs/screenshot_results.png)
+
+**멈춤 기준 비교 화면**
+
+![멈춤 기준 비교](docs/screenshot_criteria.png)
 
 **뺀 것과 이유**
 
