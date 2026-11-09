@@ -1,0 +1,6 @@
+langgraph>=1.0
+langgraph-checkpoint-sqlite>=2.0
+streamlit>=1.50
+pandas
+anthropic>=0.40
+python-dotenv
